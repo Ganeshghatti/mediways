@@ -1,0 +1,62 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100;200;300;400;500;600;700;800;900&family=Monoton&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+@font-face {
+  font-family: SourceSansProRegular;
+  src: url(../public/assets/fonts/SourceSansProRegular.ttf);
+}
+@font-face {
+  font-family: OpenSauceSansRegular;
+  src: url(../public/assets/fonts/OpenSauceSansRegular.ttf);
+}
+.border-test {
+  border: 1px solid red;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: SourceSansProRegular;
+}
+.custom-width-45 {
+  width: 45%;
+}
+.custom-width-55{
+  width: 55%;
+}
+.button-rounded {
+  display: inline-flex;
+  padding: 10.3px 20.6px;
+  justify-content: center;
+  align-items: center;
+  gap: 6.867px;
+  border-radius: 84.975px;
+  background: #700619;
+  color: var(--Neutral-White, #fff);
+  font-family: OpenSauceSansRegular;
+  font-size: 13.733px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20.6px;
+  letter-spacing: -0.275px;
+}
+.button-rounded-large {
+  width: 179px;
+  height: 66px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #700619;
+  color: #fff;
+  font-family: OpenSauceSansRegular;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 145%;
+  @media (max-width: 867px) {
+    width: 143.548px;
+    height: 52.928px;
+    flex-shrink: 0;
+  }
+}
