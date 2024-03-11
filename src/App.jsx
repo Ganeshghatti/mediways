@@ -6,6 +6,7 @@ import Navbar from "./pages/Navbar/Navbar";
 import About from "./pages/About/About";
 import WellnessInIndia from "./pages/WellnessInIndia/WellnessInIndia";
 import MedicineInIndia from "./pages/MedicineInIndia/MedicineInIndia";
+import Footer from "./pages/Footer/Footer";
 // import Form from "./pages/Form/Form";
 
 export default function App() {
@@ -24,7 +25,7 @@ export default function App() {
         {/* <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="*" element={<PageNotFound />} /> */}
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </BrowserRouter>
   );
 }
