@@ -4,6 +4,7 @@ import "./Home.scss"
 import Numbers from "./Numbers";
 import Services from "./Services";
 import Tourism from "./Tourism";
+import Specialities from "./Specialities";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <Numbers/>
       <Services/>
+      <Specialities/>
       <Tourism/>
     </div>
   );

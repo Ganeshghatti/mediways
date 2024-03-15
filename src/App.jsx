@@ -7,6 +7,7 @@ import About from "./pages/About/About";
 import WellnessInIndia from "./pages/WellnessInIndia/WellnessInIndia";
 import MedicineInIndia from "./pages/MedicineInIndia/MedicineInIndia";
 import Footer from "./pages/Footer/Footer";
+import Speciality from "./pages/Speciality/Speciality";
 // import Form from "./pages/Form/Form";
 
 export default function App() {
@@ -22,6 +23,9 @@ export default function App() {
         <Route path="/medicine-in-india" element={<MedicineInIndia />} />
 
         <Route path="/wellness-in-india" element={<WellnessInIndia />} />
+
+        <Route path="/Speciality/:speciality" element={<Speciality />} />
+
         {/* <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="*" element={<PageNotFound />} /> */}
       </Routes>

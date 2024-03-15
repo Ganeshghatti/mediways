@@ -1,0 +1,64 @@
+#Speciality {
+  width: 100vw;
+  margin-top: 12vh;
+  .Speciality-title {
+    color: #e9f7f8;
+    font-family: SourceSansProRegular;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    @media (max-width: 867px) {
+      font-size: 35px;
+      text-align: center;
+    }
+  }
+  .Speciality-description {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: SourceSansProRegular;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145%; /* 34.8px */
+    @media (max-width: 867px) {
+      font-size: 18px;
+      text-align: center;
+    }
+  }
+  .Speciality-card {
+    width: 22%;
+    padding: 30px 25px 60px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 4.151px;
+    border: 0.83px solid rgba(233, 247, 248, 0.5);
+    @media (max-width: 867px) {
+      width: 100%;
+    }
+  }
+  .Speciality-card-title {
+    color: #e9f7f8;
+    font-family: SourceSansProRegular;
+    font-size: 19.925px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .Speciality-card-description {
+    color: rgba(233, 247, 248, 0.85);
+    font-family: SourceSansProRegular;
+    font-size: 16.604px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .Speciality-card-link {
+    color: #e9f7f8;
+    font-family: SourceSansProRegular;
+    font-size: 13.283px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
