@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { useNavigate, useLocation } from "react-router-dom";
+import { Link, NavLink, useLocation, useNavigate } from "react-router-dom"; // Import useLocation
 import ArrowDropDownOutlinedIcon from "@mui/icons-material/ArrowDropDownOutlined";
 import ArrowRightOutlinedIcon from "@mui/icons-material/ArrowRightOutlined";
 import "./Navbar.scss";
@@ -8,6 +7,9 @@ import logo from "./logo.png";
 
 export default function Navbar() {
   const [menu, setmenu] = useState(false);
+  const location = useLocation();
+
+  const navigate = useNavigate();
 
   const menuf = () => {
     setmenu(!menu);
@@ -17,7 +19,14 @@ export default function Navbar() {
     navigate(`/${link}`);
     setmenu(!menu);
   };
-  
+  const isActiveTab = (path) => {
+    const parts = path.split("/");
+    const result = "/" + parts[1];
+    const currentpath = location.pathname.split("/");
+    const currentpathresult = "/" + currentpath[1];
+    console.log(currentpathresult, result);
+    return currentpathresult === result;
+  };
   return (
     <nav
       id="navbar"
@@ -69,27 +78,51 @@ export default function Navbar() {
                 fill="black"
               />
             </svg>{" "}
-            <li>
+            <li
+              className={`${
+                isActiveTab("/")
+                  ? "text-[#700619] font-semibold"
+                  : "text-[#747272]"
+              } hover:text-[#700619]`}
+            >
               <Link to="/" onClick={menuf}>
                 Home
               </Link>
             </li>
-            <li>
+            <li
+              className={`${
+                isActiveTab("/about")
+                  ? "text-[#700619] font-semibold"
+                  : "text-[#747272]"
+              } hover:text-[#700619]`}
+            >
               <Link to="/about" onClick={menuf}>
                 About us
               </Link>
             </li>
-            <li>
+            <li
+              className={`${
+                isActiveTab("/medicine-in-india")
+                  ? "text-[#700619] font-semibold"
+                  : "text-[#747272]"
+              } hover:text-[#700619]`}
+            >
               <Link to="/medicine-in-india" onClick={menuf}>
                 Medicine in India
               </Link>
             </li>
-            <li>
+            <li
+              className={`${
+                isActiveTab("/wellness-in-india")
+                  ? "text-[#700619] font-semibold"
+                  : "text-[#747272]"
+              } hover:text-[#700619]`}
+            >
               <Link to="/wellness-in-india" onClick={menuf}>
                 Wellness in India
               </Link>
             </li>
-            <Link to="/contact">
+            <Link to="/#contact">
               <button className="button-rounded">Contact us </button>
             </Link>
           </ul>
@@ -100,20 +133,42 @@ export default function Navbar() {
         className="flex z-50 justify-around items-center md:hidden navbar-pc-menu"
         style={{ gap: "2.5vw" }}
       >
-        <li>
+        <li
+          className={`${
+            isActiveTab("/") ? "text-[#700619] font-semibold" : "text-[#747272]"
+          } hover:text-[#700619]`}
+        >
           <Link to="/">Home</Link>
         </li>
-        <li>
+        <li
+          className={`${
+            isActiveTab("/about")
+              ? "text-[#700619] font-semibold"
+              : "text-[#747272]"
+          } hover:text-[#700619]`}
+        >
           <Link to="/about">About</Link>
         </li>
-        <li>
+        <li
+          className={`${
+            isActiveTab("/medicine-in-india")
+              ? "text-[#700619] font-semibold"
+              : "text-[#747272]"
+          } hover:text-[#700619]`}
+        >
           <Link to="/medicine-in-india">Medicine in India</Link>
         </li>
-        <li>
+        <li
+          className={`${
+            isActiveTab("/wellness-in-india")
+              ? "text-[#700619] font-semibold"
+              : "text-[#747272]"
+          } hover:text-[#700619]`}
+        >
           <Link to="/wellness-in-india">Wellness in India</Link>
         </li>
-      </ul> 
-      <Link to="/contact" className="w-fit md:hidden">
+      </ul>
+      <Link to="/#contact" className="w-fit md:hidden">
         <button className="button-rounded">Contact us</button>
       </Link>
     </nav>
