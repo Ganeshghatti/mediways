@@ -27,7 +27,7 @@
   }
   .Speciality-card {
     width: 22%;
-    padding: 30px 25px 60px 25px;
+    padding: 20px 20px 45px 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -61,4 +61,73 @@
     font-weight: 700;
     line-height: normal;
   }
+  .Speciality-hospitals-title {
+    color: #161616;
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 80px; /* 133.333% */
+    letter-spacing: -2.4px;
+    @media (max-width: 867px) {
+      font-size: 35px;
+      line-height: 50px; /* 133.333% */
+    }
+  }
+  .Speciality-hospitals-card {
+    width: 48%;
+    padding: 1.5vw 1.5vw 2vw 1.5vw;
+    border-radius: 25px;
+    background: #ffedf0;
+    gap: 2vw;
+    display: flex;
+    @media (max-width: 867px) {
+      width: 100%;
+      padding: 2.5vw 2.5vw 3vw 2.5vw;
+      flex-direction: column;
+    }
+  }
+  .Speciality-hospitals-card-title {
+    color: #161616;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -0.96px;
+  }
+  .Speciality-hospitals-card-text {
+    color: #161616;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .Speciality-hospitals-card-chip {
+    background: #700619;
+    color: white;
+    margin: 0 5px;
+    padding: 5px 7px;
+    border-radius: 20px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.56px;
+  }
+  .Speciality-hospitals-card-button {
+    border-radius: 10px;
+    background: #700619;
+    color: #ffe0e0;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px 35px;
+    width: fit-content;
+  }
+}
+.selected-card {
+  border: 3px solid white !important;
 }

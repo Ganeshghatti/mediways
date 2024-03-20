@@ -5,6 +5,7 @@ import Numbers from "./Numbers";
 import Services from "./Services";
 import Tourism from "./Tourism";
 import Specialities from "./Specialities";
+import Contact from "./Contact";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Services/>
       <Specialities/>
       <Tourism/>
+      <Contact/>
     </div>
   );
 }

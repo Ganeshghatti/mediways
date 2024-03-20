@@ -9,12 +9,13 @@
     height: 60px;
     flex-shrink: 0;
   }
-  .navbar-pc-menu li,.navbar-phone-sidemenu li {
-    color: #bbb;
+  .navbar-pc-menu li,
+  .navbar-phone-sidemenu li {
+    color: #747272;
     font-family: SourceSansProRegular;
     font-size: 20px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: normal;
   }
   .navbar-phone-sidemenu {

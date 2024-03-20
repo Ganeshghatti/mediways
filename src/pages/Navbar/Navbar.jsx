@@ -17,6 +17,7 @@ export default function Navbar() {
     navigate(`/${link}`);
     setmenu(!menu);
   };
+  
   return (
     <nav
       id="navbar"

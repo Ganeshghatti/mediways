@@ -251,5 +251,58 @@
   .tourism-div-icon-div {
     background-color: white;
     border-radius: 50%;
+    object-fit: contain !important;
+    width: 100px;
+    height: 100px;
+  }
+}
+#contact {
+  .contact-title {
+    color: #333;
+    text-align: center;
+    font-family: SourceSansProRegular;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 76.8px */
+  }
+  .contact-subheading {
+    color: #555;
+    text-align: center;
+    font-family: SourceSansProRegular;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+  }
+  .contact-label {
+    color: #282938;
+    font-family: SourceSansProRegular;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  .contact-input {
+    border-radius: 8px;
+    border: 1.333px solid #700619;
+    &:focus {
+      border: 30px solid #700619;
+      color: brown;
+    }
+  }
+  .contact-submit {
+    display: flex;
+    height: 70px;
+    padding: 19px 163px 19px 156px;
+    align-items: center;
+    border-radius: 8px;
+    background: #700619;
+    color: white;
+    font-family: SourceSansProRegular;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 32px */
   }
 }

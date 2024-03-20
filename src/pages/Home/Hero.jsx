@@ -14,7 +14,7 @@ export default function Hero() {
         <p className="hero-left-description md:text-center">
           Connect with top healthcare providers from all over the world
         </p>
-        <Link to="/contact" className="w-fit md:m-auto">
+        <Link to="/#contact" className="w-fit md:m-auto">
           <button className="button-rounded-large">Contact Us</button>
         </Link>
       </div>

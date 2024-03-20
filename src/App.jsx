@@ -8,12 +8,15 @@ import WellnessInIndia from "./pages/WellnessInIndia/WellnessInIndia";
 import MedicineInIndia from "./pages/MedicineInIndia/MedicineInIndia";
 import Footer from "./pages/Footer/Footer";
 import Speciality from "./pages/Speciality/Speciality";
+import PrivacyPolicy from "./Components/PrivacyPolicy";
+import PageNotFound from "./Components/PageNotFound";
+import Hospital from "./pages/Hospital/Hospital";
 // import Form from "./pages/Form/Form";
 
 export default function App() {
   return (
     <BrowserRouter>
-      <Navbar/>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -26,8 +29,10 @@ export default function App() {
 
         <Route path="/Speciality/:speciality" element={<Speciality />} />
 
-        {/* <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-        <Route path="*" element={<PageNotFound />} /> */}
+        <Route path="/hospital/:hospital-link" element={<Hospital />} />
+
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />
     </BrowserRouter>

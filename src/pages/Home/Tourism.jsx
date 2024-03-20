@@ -6,14 +6,14 @@ export default function Tourism() {
       <div className="flex items-center custom-width-55 justify-center md:w-full">
         <img src="./assets/images/tourism.png" alt="" className="w-4/5" />
       </div>
-      <div className="tourism-right flex flex-col gap-12 md:gap-4 w-2/5 md:w-11/12">
+      <div className="tourism-right flex flex-col gap-12 md:gap-4 custom-width-45 md:w-11/12">
         <p className="tourism-title">Tourism in India</p>
         <div className="flex items-center w-3/4 gap-4 md:w-11/12">
           <div className="tourism-div-icon-div flex items-center justify-center w-1/5">
             <img
               src="./assets/images/tourismicon1.png"
               alt=""
-              className="tourism-div-icon object-cover"
+              className="tourism-div-icon"
             />
           </div>
 

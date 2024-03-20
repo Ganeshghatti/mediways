@@ -25,7 +25,7 @@ export default function Footer() {
       <div className="gap-12 w-full py-24" style={{ height: "30vh" }}>
         <Slider {...settings}>
           <img
-            src="./assets/images/footerlogos/healthcare.png"
+            src="/assets/images/footerlogos/healthcare.png"
             className="footer-logos"
           />
           <img
@@ -33,15 +33,15 @@ export default function Footer() {
             className="footer-logos"
           />
           <img
-            src="./assets/images/footerlogos/medilab.png"
+            src="/assets/images/footerlogos/medilab.png"
             className="footer-logos"
           />
           <img
-            src="./assets/images/footerlogos/who.png"
+            src="/assets/images/footerlogos/who.png"
             className="footer-logos"
           />
           <img
-            src="./assets/images/footerlogos/healthcare.png"
+            src="/assets/images/footerlogos/healthcare.png"
             className="footer-logos"
           />
           <img
@@ -49,11 +49,11 @@ export default function Footer() {
             className="footer-logos"
           />
           <img
-            src="./assets/images/footerlogos/medilab.png"
+            src="/assets/images/footerlogos/medilab.png"
             className="footer-logos"
           />
           <img
-            src="./assets/images/footerlogos/who.png"
+            src="/assets/images/footerlogos/who.png"
             className="footer-logos"
           />
         </Slider>
