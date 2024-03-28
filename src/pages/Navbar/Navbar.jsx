@@ -58,7 +58,7 @@ export default function Navbar() {
             style={{ backgroundColor: "rgba(0, 0, 0, 0.353)" }}
             onClick={menuf}
           />
-          <ul className="flex flex-col fixed z-50 justify-center gap-16 right-0 top-0 items-center navbar-phone-sidemenu bg-white">
+          <ul className="flex flex-col fixed z-50 justify-center gap-12 right-0 top-0 items-center navbar-phone-sidemenu bg-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -132,8 +132,8 @@ export default function Navbar() {
                 Hospitals
               </Link>
             </li>
-            <Link to="/#contact">
-              <button className="button-rounded">Contact us </button>
+            <Link to="/#contact" className="mt-10">
+              <button className="button-rounded">Contact us</button>
             </Link>
           </ul>
         </>

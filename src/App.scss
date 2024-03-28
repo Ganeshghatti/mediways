@@ -13,7 +13,9 @@
   font-family: OpenSauceSansRegular;
   src: url(../public/assets/fonts/OpenSauceSansRegular.ttf);
 }
-
+*{
+  border: 1px solid red !important;
+}
 .border-test {
   border: 1px solid red;
 }
