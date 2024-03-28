@@ -24,8 +24,8 @@ export default function Footer() {
   };
   return (
     <footer className="flex flex-col w-full items-center" id="footer">
-      <div className="gap-12 w-full py-24" style={{ height: "30vh" }}>
-        <Slider {...settings}>
+      <div className="gap-12 w-full py-24">
+        <Slider {...settings} className="w-full">
           <img
             src="/assets/images/footerlogos/healthcare.png"
             className="footer-logos"

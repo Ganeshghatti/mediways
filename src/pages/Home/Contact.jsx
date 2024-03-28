@@ -104,9 +104,6 @@ const Contact = () => {
               onChange={handleChange}
               required
               className="contact-input"
-              // sx={{
-              //   "& fieldset": { border: 'none' },
-              // }}
             />
           </div>
           <div className="flex flex-col gap-2 custom-width-45 md:w-full">
@@ -201,7 +198,7 @@ const Contact = () => {
             className="contact-input w-full"
           />
         </div>
-        <button type="submit" className="contact-submit w-fit">
+        <button type="submit" className="contact-submit w-fit md:w-full">
           Submit
         </button>
         <Snackbar
