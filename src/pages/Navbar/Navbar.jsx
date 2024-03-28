@@ -122,6 +122,17 @@ export default function Navbar() {
                 Wellness in India
               </Link>
             </li>
+            <li
+              className={`${
+                isActiveTab("/hospitals")
+                  ? "text-[#700619] font-semibold"
+                  : "text-[#747272]"
+              } hover:text-[#700619]`}
+            >
+              <Link to="/hospitals" onClick={menuf}>
+                Hospitals
+              </Link>
+            </li>
             <Link to="/#contact">
               <button className="button-rounded">Contact us </button>
             </Link>
@@ -166,6 +177,15 @@ export default function Navbar() {
           } hover:text-[#700619]`}
         >
           <Link to="/wellness-in-india">Wellness in India</Link>
+        </li>
+        <li
+          className={`${
+            isActiveTab("/hospitals")
+              ? "text-[#700619] font-semibold"
+              : "text-[#747272]"
+          } hover:text-[#700619]`}
+        >
+          <Link to="/hospitals">Hospitals</Link>
         </li>
       </ul>
       <Link to="/#contact" className="w-fit md:hidden">

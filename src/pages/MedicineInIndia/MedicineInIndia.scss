@@ -69,37 +69,4 @@
       font-size: 20px;
     }
   }
-  .MedicineInIndia-card {
-    width: 32%;
-    padding:0.5% 1.5%;
-    height: 500px;
-    border-radius: 25px;
-    background: #ffedf0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    @media (max-width: 867px) {
-      width: 100%;
-      padding: 1% 4% 5% 4%;
-      height: 475px;
-    }
-  }
-  .MedicineInIndia-card-title {
-    color: #700619;
-    font-feature-settings: "clig" off, "liga" off;
-    font-family: SourceSansProRegular;
-    font-size: 25.456px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 36.062px; /* 141.667% */
-  }
-  .MedicineInIndia-card-description {
-    color: #0c0c0c;
-    font-feature-settings: "clig" off, "liga" off;
-    font-family: SourceSansProRegular;
-    font-size: 19.092px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 31.82px; /* 166.667% */
-  }
 }

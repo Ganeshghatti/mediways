@@ -3,14 +3,54 @@ import { Link } from "react-router-dom";
 
 export default function Specialities() {
   const data = [
-    { name: "Fertility" },
-    { name: "Cosmetic" },
-    { name: "Dentistry" },
-    { name: "Dermatalogy" },
-    { name: "Gynecology" },
-    { name: "Orthopaedics" },
-    { name: "Opthalmology" },
-    { name: "Wellness" },
+    {
+      name: "Common Cardiac Ailments",
+      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aliquam impedit earum eum reiciendis ab ea aperiam voluptas nihil sunt dolores!",
+      img: "public/assets/images/specailities/Cosmetic.png",
+      link: "common-cardiac-ailments",
+    },
+    {
+      name: "Common Cardiac Ailments",
+      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aliquam impedit earum eum reiciendis ab ea aperiam voluptas nihil sunt dolores!",
+      img: "public/assets/images/specailities/Cosmetic.png",
+      link: "common-cardiac-ailments",
+    },
+    {
+      name: "Common Cardiac Ailments",
+      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aliquam impedit earum eum reiciendis ab ea aperiam voluptas nihil sunt dolores!",
+      img: "public/assets/images/specailities/Cosmetic.png",
+      link: "common-cardiac-ailments",
+    },
+    {
+      name: "Common Cardiac Ailments",
+      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aliquam impedit earum eum reiciendis ab ea aperiam voluptas nihil sunt dolores!",
+      img: "public/assets/images/specailities/Cosmetic.png",
+      link: "common-cardiac-ailments",
+    },
+    {
+      name: "Common Cardiac Ailments",
+      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aliquam impedit earum eum reiciendis ab ea aperiam voluptas nihil sunt dolores!",
+      img: "public/assets/images/specailities/Cosmetic.png",
+      link: "common-cardiac-ailments",
+    },
+    {
+      name: "Common Cardiac Ailments",
+      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aliquam impedit earum eum reiciendis ab ea aperiam voluptas nihil sunt dolores!",
+      img: "public/assets/images/specailities/Cosmetic.png",
+      link: "common-cardiac-ailments",
+    },
+    {
+      name: "Common Cardiac Ailments",
+      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aliquam impedit earum eum reiciendis ab ea aperiam voluptas nihil sunt dolores!",
+      img: "public/assets/images/specailities/Cosmetic.png",
+      link: "common-cardiac-ailments",
+    },
+    {
+      name: "Common Cardiac Ailments",
+      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aliquam impedit earum eum reiciendis ab ea aperiam voluptas nihil sunt dolores!",
+      img: "public/assets/images/specailities/Cosmetic.png",
+      link: "common-cardiac-ailments",
+    },
   ];
   return (
     <section
@@ -28,18 +68,14 @@ export default function Specialities() {
             <div className="Home-Specialities-card" key={index}>
               <div className="flex gap-2 items-center">
                 <img
-                  src={`./assets/images/specailities/${item.name}.png`}
+                  src={item.img}
                   alt={item.name}
                 />
                 <p className="Home-Specialities-card-title">{item.name}</p>
               </div>
-              <p className="Home-Specialities-card-description">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Aliquam impedit earum eum reiciendis ab ea aperiam voluptas
-                nihil sunt dolores!
-              </p>
+              <p className="Home-Specialities-card-description">{item.desc}</p>
               <Link
-                to={`/Speciality/${item.name}`}
+                to={`/Speciality/${item.link}`}
                 className="flex items-center Home-Specialities-card-link mt-4"
               >
                 READ MORE

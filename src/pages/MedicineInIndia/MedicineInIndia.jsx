@@ -47,76 +47,76 @@ export default function MedicineInIndia() {
             respective fields globally.
           </p>
           <div className="flex md:flex-col w-full justify-between md:justify-center md:gap-y-10 mt-12">
-            <div className="MedicineInIndia-card">
+            <div className="blog-card">
               <img
                 src="./assets/images/servicesimg1.png"
                 alt=""
                 className="w-full object-cover"
               />
-              <p className="MedicineInIndia-card-title">Health Packages</p>
-              <p className="MedicineInIndia-card-description">
+              <p className="blog-card-title">Health Packages</p>
+              <p className="blog-card-description">
                 Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
                 dalaracc lacus vel facilisis volutpat est velitolm.
               </p>
             </div>
-            <div className="MedicineInIndia-card">
+            <div className="blog-card">
               <img
                 src="./assets/images/servicesimg2.png"
                 alt=""
                 className="w-full object-cover"
               />
-              <p className="MedicineInIndia-card-title">Health Packages</p>
-              <p className="MedicineInIndia-card-description">
+              <p className="blog-card-title">Health Packages</p>
+              <p className="blog-card-description">
                 Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
                 dalaracc lacus vel facilisis volutpat est velitolm.
               </p>{" "}
             </div>
-            <div className="MedicineInIndia-card">
+            <div className="blog-card">
               <img
                 src="./assets/images/servicesimg3.png"
                 alt=""
                 className="w-full object-cover"
               />
-              <p className="MedicineInIndia-card-title">Health Packages</p>
-              <p className="MedicineInIndia-card-description">
+              <p className="blog-card-title">Health Packages</p>
+              <p className="blog-card-description">
                 Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
                 dalaracc lacus vel facilisis volutpat est velitolm.
               </p>{" "}
             </div>
           </div>
           <div className="flex md:flex-col w-full justify-between md:justify-center md:gap-y-10 mt-12">
-            <div className="MedicineInIndia-card">
+            <div className="blog-card">
               <img
                 src="./assets/images/servicesimg1.png"
                 alt=""
                 className="w-full object-cover"
               />
-              <p className="MedicineInIndia-card-title">Health Packages</p>
-              <p className="MedicineInIndia-card-description">
+              <p className="blog-card-title">Health Packages</p>
+              <p className="blog-card-description">
                 Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
                 dalaracc lacus vel facilisis volutpat est velitolm.
               </p>
             </div>
-            <div className="MedicineInIndia-card">
+            <div className="blog-card">
               <img
                 src="./assets/images/servicesimg2.png"
                 alt=""
                 className="w-full object-cover"
               />
-              <p className="MedicineInIndia-card-title">Health Packages</p>
-              <p className="MedicineInIndia-card-description">
+              <p className="blog-card-title">Health Packages</p>
+              <p className="blog-card-description">
                 Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
                 dalaracc lacus vel facilisis volutpat est velitolm.
               </p>{" "}
             </div>
-            <div className="MedicineInIndia-card">
+            <div className="blog-card">
               <img
                 src="./assets/images/servicesimg3.png"
                 alt=""
                 className="w-full object-cover"
               />
-              <p className="MedicineInIndia-card-title">Health Packages</p>
-              <p className="MedicineInIndia-card-description">
+              <p className="blog-card-title">Health Packages</p>
+              <p className="blog-card-description">
                 Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
                 dalaracc lacus vel facilisis volutpat est velitolm.
               </p>{" "}

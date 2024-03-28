@@ -19,7 +19,7 @@ export default function WellnessInIndia() {
         />
         <div className="flex flex-col absolute px-8 md:gap-4 md:py-6 md:w-11/12 py-4 items-center WellnessInIndia-div">
           <p className="WellnessInIndia-div-title">Wellness in India</p>
-          <p className="WellnessInIndia-title-subheading">
+          <p className="WellnessInIndia-div-subheading">
             Experience a unique and holistic approach to mind and body
             rejuvenation
           </p>
@@ -39,38 +39,38 @@ export default function WellnessInIndia() {
             environment.
           </p>
           <div className="flex md:flex-col w-full justify-between md:justify-center md:gap-y-10 mt-12">
-            <div className="WellnessInIndia-card">
+            <div className="blog-card">
               <img
                 src="./assets/images/servicesimg1.png"
                 alt=""
                 className="w-full object-cover"
               />
-              <p className="WellnessInIndia-card-title">Health Packages</p>
-              <p className="WellnessInIndia-card-description">
+              <p className="blog-card-title">Health Packages</p>
+              <p className="blog-card-description">
                 Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
                 dalaracc lacus vel facilisis volutpat est velitolm.
               </p>
             </div>
-            <div className="WellnessInIndia-card">
+            <div className="blog-card">
               <img
                 src="./assets/images/servicesimg2.png"
                 alt=""
                 className="w-full object-cover"
               />
-              <p className="WellnessInIndia-card-title">Health Packages</p>
-              <p className="WellnessInIndia-card-description">
+              <p className="blog-card-title">Health Packages</p>
+              <p className="blog-card-description">
                 Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
                 dalaracc lacus vel facilisis volutpat est velitolm.
               </p>{" "}
             </div>
-            <div className="WellnessInIndia-card">
+            <div className="blog-card">
               <img
                 src="./assets/images/servicesimg3.png"
                 alt=""
                 className="w-full object-cover"
               />
-              <p className="WellnessInIndia-card-title">Health Packages</p>
-              <p className="WellnessInIndia-card-description">
+              <p className="blog-card-title">Health Packages</p>
+              <p className="blog-card-description">
                 Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
                 dalaracc lacus vel facilisis volutpat est velitolm.
               </p>{" "}

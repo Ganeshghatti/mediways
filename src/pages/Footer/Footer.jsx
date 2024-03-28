@@ -70,7 +70,6 @@ export default function Footer() {
         <div className="custom-width-15 md:w-full flex flex-col gap-4 md:items-center">
           <p className="footer-divset-title">COMPANY</p>
           <ul className="footer-divset-options">
-            {" "}
             <Link to="/">
               <li>Home</li>
             </Link>{" "}

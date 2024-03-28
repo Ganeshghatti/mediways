@@ -12,6 +12,7 @@ import PrivacyPolicy from "./Components/PrivacyPolicy";
 import PageNotFound from "./Components/PageNotFound";
 import Hospital from "./pages/Hospital/Hospital";
 import TermsAndCondition from "./Components/TermsAndCondition";
+import Hospitals from "./pages/Hospitals/Hospitals";
 // import Form from "./pages/Form/Form";
 
 export default function App() {
@@ -30,7 +31,9 @@ export default function App() {
 
         <Route path="/Speciality/:speciality" element={<Speciality />} />
 
-        <Route path="/hospital/:hospital-link" element={<Hospital />} />
+        <Route path="/hospitals" element={<Hospitals />} />
+        
+        <Route path="/hospitals/:hospital-link" element={<Hospital />} />
 
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-and-conditions" element={<TermsAndCondition />} />
