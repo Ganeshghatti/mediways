@@ -176,7 +176,7 @@ export default function Footer() {
         </div>
       </div>{" "}
       <div className="footer-enddiv py-8 w-full flex justify-between px-10 md:flex-col md:gap-6 md:px-4 md:items-center">
-        <p className="footer-enddiv-copyright">© 2021 Copyright Company.com</p>
+        <p className="footer-enddiv-copyright">© 2024 Copyright Mediways.com</p>
         <p className="footer-enddiv-termscondition">
           User Terms & Conditions | Privacy Policy
         </p>

@@ -24,7 +24,7 @@ export default function Speciality() {
       name: "Common Cardiac Ailments",
       desc: "India has emerged as a leading destination for cardiac treatment, offering world-class medical facilities, renowned cardiologists, and advanced technologies at a fraction of the cost compared to many Western countries. From routine procedures to complex surgeries, India provides comprehensive cardiac care tailored to individual needs.",
       full_screen_img_pc: "/assets/images/MedicineInIndiaimg.png",
-      full_screen_img_phone: "./assets/images/MedicineInIndiaimgphone.png",
+      full_screen_img_phone: "/assets/images/MedicineInIndiaimgphone.png",
       faq: [
         {
           question: "What is cardiology?",
