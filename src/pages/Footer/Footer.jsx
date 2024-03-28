@@ -70,7 +70,7 @@ export default function Footer() {
         </div>
         <div className="custom-width-15 md:w-full flex flex-col gap-4 md:items-center">
           <p className="footer-divset-title">COMPANY</p>
-          <ul className="footer-divset-options">
+          <ul className="footer-divset-options md:items-center">
             <Link to="/">
               <li>Home</li>
             </Link>{" "}
@@ -87,7 +87,7 @@ export default function Footer() {
         </div>
         <div className="custom-width-15 md:w-full flex flex-col gap-4 md:items-center">
           <p className="footer-divset-title">SERVICES</p>
-          <ul className="footer-divset-options">
+          <ul className="footer-divset-options md:items-center">
             <li>Donec dignissim Cura</li>
             <li>Donec dignissim Cura</li>
             <li>Donec dignissim Cura</li>
@@ -96,7 +96,7 @@ export default function Footer() {
         </div>
         <div className="custom-width-15 md:w-full flex flex-col gap-4 md:items-center">
           <p className="footer-divset-title">RESOURCES</p>
-          <ul className="footer-divset-options">
+          <ul className="footer-divset-options md:items-center">
             <Link to="/terms-and-conditions">
               <li>Terms & Conditions</li>
             </Link>{" "}

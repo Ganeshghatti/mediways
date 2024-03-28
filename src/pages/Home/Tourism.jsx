@@ -3,10 +3,10 @@ import React from "react";
 export default function Tourism() {
   return (
     <section id="Tourism" className="w-full flex py-10 md:flex-col md:gap-12 md:items-center justify-around">
-      <div className="flex items-center custom-width-55 justify-center md:w-full">
-        <img src="./assets/images/tourism.png" alt="" className="w-4/5" />
+      <div className="flex items-center w-1/2 justify-center md:w-11/12">
+        <img src="./assets/images/tourism.png" alt="" className="w-4/5 md:w-full" />
       </div>
-      <div className="tourism-right flex flex-col gap-12 md:gap-4 custom-width-45 md:w-11/12">
+      <div className="tourism-right flex flex-col gap-12 md:gap-4 w-1/2 md:w-11/12">
         <p className="tourism-title">Tourism in India</p>
         <div className="flex items-center w-3/4 gap-4 md:w-11/12">
           <div className="tourism-div-icon-div flex items-center justify-center w-1/5">

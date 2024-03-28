@@ -7,7 +7,7 @@
 #hero {
   height: 95vh;
   @media (max-width: 867px) {
-    margin-top: 15vh;
+    margin-top: 18vh;
     height: auto;
   }
   .hero-left-heading {
@@ -187,7 +187,7 @@
     padding: 30px 25px 60px 25px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 13px;
     border-radius: 4.151px;
     border: 0.83px solid rgba(233, 247, 248, 0.5);
     @media (max-width: 867px) {
@@ -251,9 +251,9 @@
   .tourism-div-icon-div {
     background-color: white;
     border-radius: 50%;
-    object-fit: contain !important;
-    width: 100px;
-    height: 100px;
+    // object-fit: contain !important;
+    // width: 100px;
+    // height: 100px;
   }
 }
 #contact {
@@ -294,14 +294,16 @@
   .contact-submit {
     display: flex;
     height: 70px;
-    padding: 19px 163px 19px 156px;
+    padding: 19px 156px 19px 156px;
     align-items: center;
     border-radius: 8px;
     background: #700619;
     color: white;
     font-family: SourceSansProRegular;
+    text-align: center;
     font-size: 21.333px;
     font-style: normal;
+    justify-content: center;
     font-weight: 600;
     line-height: 150%; /* 32px */
   }
