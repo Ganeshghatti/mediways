@@ -24,7 +24,6 @@ export default function Navbar() {
     const result = "/" + parts[1];
     const currentpath = location.pathname.split("/");
     const currentpathresult = "/" + currentpath[1];
-    console.log(currentpathresult, result);
     return currentpathresult === result;
   };
   return (
