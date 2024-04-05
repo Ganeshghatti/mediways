@@ -8,7 +8,7 @@ export default function Tourism() {
       </div>
       <div className="tourism-right flex flex-col gap-12 md:gap-4 w-1/2 md:w-11/12">
         <p className="tourism-title">Tourism in India</p>
-        <div className="flex items-center w-3/4 gap-4 md:w-11/12">
+        <div className="flex items-center w-3/4 gap-4 md:w-full">
           <div className="tourism-div-icon-div flex items-center justify-center w-1/5">
             <img
               src="./assets/images/tourismicon1.png"
@@ -28,7 +28,7 @@ export default function Tourism() {
           
         </div>
 
-        <div className="flex items-center w-3/4 gap-4 md:w-11/12">
+        <div className="flex items-center w-3/4 gap-4 md:w-full">
           <div className="tourism-div-icon-div flex items-center justify-center w-1/5">
             <img
               src="./assets/images/tourismicon2.png"
@@ -48,7 +48,7 @@ export default function Tourism() {
           
         </div>
 
-        <div className="flex items-center w-3/4 gap-4 md:w-11/12">
+        <div className="flex items-center w-3/4 gap-4 md:w-full">
           <div className="tourism-div-icon-div flex items-center justify-center w-1/5">
             <img
               src="./assets/images/tourismicon3.png"

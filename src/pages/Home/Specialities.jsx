@@ -4,52 +4,52 @@ import { Link } from "react-router-dom";
 export default function Specialities() {
   const data = [
     {
-      name: "Common Cardiac Ailments",
+      name: "Cardiac",
       desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aliquam impedit earum eum reiciendis ab ea aperiam voluptas nihil sunt dolores!",
       img: "/assets/images/specailities/Cosmetic.png",
-      link: "common-cardiac-ailments",
+      link: "cardiac",
     },
     {
-      name: "Common Cardiac Ailments",
+      name: "Liver Transplantation",
       desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aliquam impedit earum eum reiciendis ab ea aperiam voluptas nihil sunt dolores!",
       img: "/assets/images/specailities/Cosmetic.png",
-      link: "common-cardiac-ailments",
+      link: "liver-transplantation",
     },
     {
-      name: "Common Cardiac Ailments",
+      name: "Bone Marrow Transplant",
       desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aliquam impedit earum eum reiciendis ab ea aperiam voluptas nihil sunt dolores!",
       img: "/assets/images/specailities/Cosmetic.png",
-      link: "common-cardiac-ailments",
+      link: "bone-marrow-transplant",
     },
     {
-      name: "Common Cardiac Ailments",
+      name: "Heart Transplantation",
       desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aliquam impedit earum eum reiciendis ab ea aperiam voluptas nihil sunt dolores!",
       img: "/assets/images/specailities/Cosmetic.png",
-      link: "common-cardiac-ailments",
+      link: "heart-transplantation",
     },
     {
-      name: "Common Cardiac Ailments",
+      name: "Kidney Transplantation",
       desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aliquam impedit earum eum reiciendis ab ea aperiam voluptas nihil sunt dolores!",
       img: "/assets/images/specailities/Cosmetic.png",
-      link: "common-cardiac-ailments",
+      link: "kidney-transplantation",
     },
     {
-      name: "Common Cardiac Ailments",
+      name: "Cardiac",
       desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aliquam impedit earum eum reiciendis ab ea aperiam voluptas nihil sunt dolores!",
       img: "/assets/images/specailities/Cosmetic.png",
-      link: "common-cardiac-ailments",
+      link: "cardiac",
     },
     {
-      name: "Common Cardiac Ailments",
+      name: "Cardiac",
       desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aliquam impedit earum eum reiciendis ab ea aperiam voluptas nihil sunt dolores!",
       img: "/assets/images/specailities/Cosmetic.png",
-      link: "common-cardiac-ailments",
+      link: "cardiac",
     },
     {
-      name: "Common Cardiac Ailments",
+      name: "Cardiac",
       desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aliquam impedit earum eum reiciendis ab ea aperiam voluptas nihil sunt dolores!",
       img: "/assets/images/specailities/Cosmetic.png",
-      link: "common-cardiac-ailments",
+      link: "cardiac",
     },
   ];
   return (

@@ -17,7 +17,8 @@ export default {
       bluepurple: "#4633D7",
       navyblue: "#1F20AE",
       gray:"#000",
-      gray2:"#000"
+      gray2:"#000",
+      red:"#700619"
     },
     extend: {
       screens: {

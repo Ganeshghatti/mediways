@@ -28,7 +28,7 @@ export default function About() {
       <div className="flex flex-col gap-4 py-16 w-full items-center justify-center">
         <div className="w-4/5 md:w-11/12 flex flex-col gap-6 ">
           <p className="about-title">
-            About<span className="text-[#700619] font-semibold"> Mediways</span>
+            About<span className="text-[#700619] font-semibold">Mediways</span>
           </p>
           <p className="about-description">
             India has also been rapidly emerging as a prominent destination for

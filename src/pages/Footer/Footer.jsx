@@ -15,7 +15,7 @@ export default function Footer() {
     autoplaySpeed: 3000,
     slidesToShow: 2, // Default for desktop
     slidesToScroll: 1,
-    arrows:false,
+    arrows: false,
     responsive: [
       { breakpoint: 3000, settings: { slidesToShow: 4, slidesToScroll: 2 } }, // Desktop
       { breakpoint: 1024, settings: { slidesToShow: 3, slidesToScroll: 2 } }, // Tablet
@@ -23,7 +23,7 @@ export default function Footer() {
     ],
   };
   return (
-    <footer className="flex flex-col w-full items-center" id="footer">
+    <footer className="flex flex-col w-full items-center mt-20" id="footer">
       <div className="gap-12 w-full py-24">
         <Slider {...settings} className="w-full">
           <img
@@ -60,12 +60,11 @@ export default function Footer() {
           />
         </Slider>
       </div>
-      <div className="footer-div flex w-11/12 md:flex-col py-32 md:py-24 justify-between md:gap-12">
+      <div className="footer-div flex w-11/12 md:flex-col pb-24 md:pb-18 justify-between md:gap-12">
         <div className="w-1/4 md:w-full flex flex-col gap-4 md:items-center">
           <img src={logo} alt="" style={{ width: "150px" }} />
           <p className="footer-div1-description w-3/4 md:text-center">
-            Nam posuere accumsan porta. Integer id tincidunt sit amet sed
-            libero.
+            Treatment With Unmatched Personal Care
           </p>
         </div>
         <div className="custom-width-15 md:w-full flex flex-col gap-4 md:items-center">
@@ -88,10 +87,12 @@ export default function Footer() {
         <div className="custom-width-15 md:w-full flex flex-col gap-4 md:items-center">
           <p className="footer-divset-title">SERVICES</p>
           <ul className="footer-divset-options md:items-center">
-            <li>Donec dignissim Cura</li>
-            <li>Donec dignissim Cura</li>
-            <li>Donec dignissim Cura</li>
-            <li>Donec dignissim Cura</li>
+            <Link to="/services/process">
+              <li>Process</li>
+            </Link>{" "}
+            <Link to="/services/visa">
+              <li>Visa</li>
+            </Link>{" "}
           </ul>
         </div>
         <div className="custom-width-15 md:w-full flex flex-col gap-4 md:items-center">
@@ -178,7 +179,8 @@ export default function Footer() {
       <div className="footer-enddiv py-8 w-full flex justify-between px-10 md:flex-col md:gap-6 md:px-4 md:items-center">
         <p className="footer-enddiv-copyright">© 2024 Copyright Mediways.com</p>
         <p className="footer-enddiv-termscondition">
-          User Terms & Conditions | Privacy Policy
+          <Link to="/terms-and-conditions">User Terms & Conditions</Link> |
+          <Link to="/privacy-policy"> Privacy Policy</Link>
         </p>
       </div>
     </footer>

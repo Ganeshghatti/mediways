@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Services() {
   return (
-    <section id="services" className="flex items-center flex-col py-16 gap-4">
+    <section id="Home-services" className="flex items-center flex-col py-16 gap-4">
       <p className="services-title">Our Services</p>
       <p className="services-description">
         Get the unparalleled care and attention you deserve
@@ -15,13 +15,12 @@ export default function Services() {
             alt=""
             className="w-full object-cover"
           />
-          <p className="services-card-title">Health Packages</p>
+          <p className="services-card-title">Process</p>
           <p className="services-card-description">
-            Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
-            dalaracc lacus vel facilisis volutpat est velitolm.
+            Simplified process flow for medical treatment in India
           </p>
           <Link
-            to="/services/health-packages"
+            to="/services/process"
             className="flex services-card-link w-fit"
           >
             Learn More
@@ -55,13 +54,12 @@ export default function Services() {
             alt=""
             className="w-full object-cover"
           />
-          <p className="services-card-title">Health Packages</p>
+          <p className="services-card-title">Visa</p>
           <p className="services-card-description">
-            Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
-            dalaracc lacus vel facilisis volutpat est velitolm.
+            Know about visa process
           </p>{" "}
           <Link
-            to="/services/health-packages"
+            to="/services/visa"
             className="flex services-card-link w-fit"
           >
             Learn More
@@ -102,7 +100,7 @@ export default function Services() {
           </p>{" "}
           <Link
             to="/services/health-packages"
-            className="flex services-card-link w-fit" 
+            className="flex services-card-link w-fit"
           >
             Learn More
             <svg
