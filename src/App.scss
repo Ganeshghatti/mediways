@@ -136,7 +136,7 @@ body {
   @media (max-width: 867px) {
     width: 100%;
     padding: 5% 4% 5% 4%;
-    height: 475px;
+    min-height: 475px;
   }
   .blog-card-title {
     color: #700619;
