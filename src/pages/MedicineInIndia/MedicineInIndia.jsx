@@ -1,8 +1,11 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./MedicineInIndia.scss";
 import { Link } from "react-router-dom";
 
 export default function MedicineInIndia() {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top of the page when the component mounts
+  }, []);
   return (
     <section id="MedicineInIndia" className="flex flex-col w-full">
       <div className="relative w-full flex items-end justify-center">

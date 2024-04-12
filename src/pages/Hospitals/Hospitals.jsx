@@ -1,7 +1,10 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { Link } from "react-router-dom";
 
 export default function Hospitals() {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top of the page when the component mounts
+  }, []);
   const [allHospitals, setallHospitals] = useState([
     {
       thumbnail: "/assets/images/HospitalImg.png",

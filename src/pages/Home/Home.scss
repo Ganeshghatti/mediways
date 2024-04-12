@@ -85,7 +85,7 @@
     }
   }
 }
-#Home-services{
+#Home-services {
   .services-title {
     color: #000;
     font-family: SourceSansProRegular;
@@ -184,10 +184,13 @@
   }
   .Home-Specialities-card {
     width: 22%;
-    padding: 30px 25px 60px 25px;
+    padding: 20px 25px 40px 25px;
     display: flex;
     flex-direction: column;
-    gap: 13px;
+    justify-content: space-around;
+    gap: 20px;
+    min-height: 350px; /* Set a minimum height to ensure consistency */
+    box-sizing: border-box;
     border-radius: 4.151px;
     border: 0.83px solid rgba(233, 247, 248, 0.5);
     @media (max-width: 867px) {

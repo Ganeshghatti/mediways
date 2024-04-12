@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "./Hospital.scss";
 
 export default function Hospital() {
@@ -31,6 +31,9 @@ export default function Hospital() {
       },
     ],
   });
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top of the page when the component mounts
+  }, []);
   return (
     <div
       id="Hospital"

@@ -1,7 +1,10 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./Services.scss";
 
 export default function Process() {
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scrolls to the top of the page when the component mounts
+      }, []);
   return (
     <div
       className="Process flex gap-8 items-center justify-center w-full flex-col"

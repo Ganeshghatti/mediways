@@ -1,7 +1,10 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./About.scss";
 
 export default function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top of the page when the component mounts
+  }, []);
   return (
     <section id="about" className="flex flex-col w-full">
       <div className="relative w-full flex items-end justify-center">

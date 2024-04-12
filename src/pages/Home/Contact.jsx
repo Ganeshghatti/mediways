@@ -170,14 +170,13 @@ const Contact = () => {
             className="contact-input w-full"
           >
             <MenuItem value=" ">Select Speciality</MenuItem>{" "}
-            <MenuItem value="Fertility">Fertility</MenuItem>
-            <MenuItem value="Cosmetic">Cosmetic</MenuItem>
-            <MenuItem value="Dentistry">Dentistry</MenuItem>
-            <MenuItem value="Dermatology">Dermatology</MenuItem>
-            <MenuItem value="Gynecology">Gynecology</MenuItem>
-            <MenuItem value="Orthopaedics">Orthopaedics</MenuItem>
-            <MenuItem value="Opthalmology">Opthalmology</MenuItem>
-            <MenuItem value="Wellness">Wellness</MenuItem>
+            <MenuItem value="Cardiac">Cardiac</MenuItem>
+            <MenuItem value="LiverTransplantation">Liver Transplantation</MenuItem>
+            <MenuItem value="BoneMarrowTransplant">Bone Marrow Transplant</MenuItem>
+            <MenuItem value="HeartTransplantation">Heart Transplantation</MenuItem>
+            <MenuItem value="KidneyTransplantation">Kidney Transplantation</MenuItem>
+            <MenuItem value="Gastroenterology">Gastroenterology</MenuItem>
+            <MenuItem value="Cancer">Cancer</MenuItem>
           </TextField>
         </div>
 

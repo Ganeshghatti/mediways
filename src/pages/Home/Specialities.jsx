@@ -5,45 +5,45 @@ export default function Specialities() {
   const data = [
     {
       name: "Cardiac",
-      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aliquam impedit earum eum reiciendis ab ea aperiam voluptas nihil sunt dolores!",
+      desc: "From routine procedures to complex surgeries, India provides comprehensive cardiac care tailored to individual needs.",
       img: "/assets/images/specailities/Cosmetic.png",
       link: "cardiac",
     },
     {
       name: "Liver Transplantation",
-      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aliquam impedit earum eum reiciendis ab ea aperiam voluptas nihil sunt dolores!",
+      desc: "Liver transplantation is a surgical procedure where a diseased or damaged liver is replaced with a healthy liver from a donor",
       img: "/assets/images/specailities/Cosmetic.png",
       link: "liver-transplantation",
     },
     {
       name: "Bone Marrow Transplant",
-      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aliquam impedit earum eum reiciendis ab ea aperiam voluptas nihil sunt dolores!",
+      desc: "Bone Marrow Transplant is a procedure where diseased or damaged bone marrow is replaced with healthy stem cells",
       img: "/assets/images/specailities/Cosmetic.png",
       link: "bone-marrow-transplant",
     },
     {
       name: "Heart Transplantation",
-      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aliquam impedit earum eum reiciendis ab ea aperiam voluptas nihil sunt dolores!",
+      desc: "Heart transplantation is a complex surgical procedure where a diseased or damaged heart is replaced with a healthy heart from a donor.",
       img: "/assets/images/specailities/Cosmetic.png",
       link: "heart-transplantation",
     },
     {
       name: "Kidney Transplantation",
-      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aliquam impedit earum eum reiciendis ab ea aperiam voluptas nihil sunt dolores!",
+      desc: "Kidney transplantation is a surgical procedure where a healthy kidney from a donor is transplanted into a patient whose kidneys have failed or are no longer functioning properly",
       img: "/assets/images/specailities/Cosmetic.png",
       link: "kidney-transplantation",
     },
     {
-      name: "Cardiac",
-      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aliquam impedit earum eum reiciendis ab ea aperiam voluptas nihil sunt dolores!",
+      name: "Gastroenterology",
+      desc: "Gastroenterology focuses on the diagnosis and treatment of disorders related to the digestive system, including the esophagus, stomach, intestines, liver, pancreas, and gallbladder.",
       img: "/assets/images/specailities/Cosmetic.png",
-      link: "cardiac",
+      link: "gastroenterology",
     },
     {
-      name: "Cardiac",
-      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aliquam impedit earum eum reiciendis ab ea aperiam voluptas nihil sunt dolores!",
+      name: "Cancer",
+      desc: "India has emerged as a leading destination for cancer treatment, offering state-of-the-art medical facilities, renowned oncologists, and advanced treatment modalities at affordable costs.",
       img: "/assets/images/specailities/Cosmetic.png",
-      link: "cardiac",
+      link: "cancer",
     },
     {
       name: "Cardiac",
@@ -63,7 +63,7 @@ export default function Specialities() {
           Connect with experienced world-class doctors for exceptional services
           across different specialities
         </p>
-        <div className="flex items-center flex-wrap justify-between mt-10 md:flex-col w-full gap-6">
+        <div className="flex items-center flex-wrap justify-between mt-10 md:flex-col w-full gap-6 h-full">
           {data.map((item, index) => (
             <div className="Home-Specialities-card" key={index}>
               <div className="flex gap-2 items-center">
